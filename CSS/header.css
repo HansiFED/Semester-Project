@@ -1,0 +1,50 @@
+:root {
+    --headerbackroundcolor: #98F3FF;
+    --headerbuttonscolor: #303030;
+}
+
+
+.desktopheader {
+    display: flex;
+    background-color: var(--headerbackroundcolor);
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.headernav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+#sitelogo {
+    cursor: pointer;
+}
+
+.headerbuttons {
+    font-family: 'Grandstander', 'Signika';
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    background-color: var(--headerbuttonscolor);
+    border-radius: 40px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 5px 20px 5px 20px;
+    transition: 0.15s;
+}
+
+.headerbuttons:hover {
+    color: var(--headerbackroundcolor);
+}
+
+
+
+
+.searchicon {
+    all: unset;
+}
+
+.hiddenburger {
+    display: none;
+}

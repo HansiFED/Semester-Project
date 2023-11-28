@@ -1,0 +1,13 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding-left: 19%;
+    padding-right: 19%;
+    margin-top: 60px;
+}
+
+footer p {
+    text-decoration: underline;
+    cursor: pointer;
+}
