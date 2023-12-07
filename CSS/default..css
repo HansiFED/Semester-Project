@@ -1,26 +1,43 @@
 :root {
-    --h2color: #98F3FF;
-    --paragraphtext: #FFFFFF;
-    --sectioncontainer: #4B4B4B;
+    --h2color: #0057A3;
+    --paragraphtext: #000000;
+    --sectioncontainer: #1F1F1F;
+    --pagecolor: #FFFFFF;
 }
 
 body {
     margin: 0;
-    font-family: 'Grandstander', 'Signika';
-    background-color: var(--pagecolor);
+    font-family: 'Poppins', 'Poppins';
+    background: var(--pagecolor);
 }
 
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainpagecontainer {
+    width: 80%;
+    max-width: 1600px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
 
 
 h1 {
     font-weight: 400;
     font-size: 4rem;
+    color: var(--paragraphtext);
 }
 
 h2 {
     color: var(--h2color);
     font-weight: 400;
-    align-self: center;
+    align-self: left;
     font-size: 2rem;
 }
 
@@ -45,4 +62,6 @@ p {
 .sectioncontainer-right {
     display: flex;
     flex-direction: column;
+    padding-right: 5%;
+    padding-left: 5%;
 }

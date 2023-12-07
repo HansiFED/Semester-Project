@@ -1,68 +1,60 @@
 :root {
-    --pagecolor: #303030;
-    --backroundimagetext: #FFFFFF;
-    --sectioncontainer: #4B4B4B;
-}
-
-
-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  --backroundimagetext: #ffffff;
+  --sectioncontainer: #4b4b4b;
 }
 
 .landingpagebackround {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("Images/stockphotos/whalemuseum2.jpg");
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 400px;
+  width: 100%;
 }
 
-.backroundimagetext {
-    color: var(--backroundimagetext);
+.backroundimage {
+  width: 100%;
 }
 
-.mainpagecontainer {
-    width: 70%;
-    max-width: 1600px;
+.categorycontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.categoryrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.categorybox {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  gap: 20px;
+}
+
+.stockphotos {
+  width: 100%;
+  max-width: 2000px;
+}
+
+h5 {
+  font-size: 1.2rem;
+}
+
+.categorybox-text-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(84, 175, 255, 0.2);
+  padding: 20px;
+}
+
+.categorybox-text-container-o {
     display: flex;
     flex-direction: column;
-    gap: 30px;
-}
+    background-color: rgba(255, 167, 84, 0.5);
+    padding: 20px;
+  }
 
-#exploretext {
-    text-align: center;
-    text-decoration: underline;
-}
-
-#exploretext2 {
-    text-align: center;
-}
-
-
-#teacher-hidden {
-    display: none;
-}
-
-.mainpageimage {
-    max-height: 400px;
-}
-
-#whitesectionbottom {
-    background-color: var(--backroundimagetext);
-    padding: 60px;
-}
-
-h3 {
-    font-size: 2rem;
-}
-
-#whitesectionbottom p {
-    color: black;
-}
+  .categorybox-text-container-y {
+    display: flex;
+    flex-direction: column;
+    background-color:  rgba(241, 255, 84, 0.5);
+    padding: 20px;
+  }

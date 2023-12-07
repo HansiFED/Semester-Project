@@ -1,6 +1,6 @@
 :root {
-    --headerbackroundcolor: #98F3FF;
-    --headerbuttonscolor: #303030;
+    --headerbackroundcolor: #0057A3;
+    --headerbuttonshover: #FFFF00; 
 }
 
 
@@ -23,19 +23,20 @@
 }
 
 .headerbuttons {
-    font-family: 'Grandstander', 'Signika';
+    font-family: 'Poppins', 'Signika';
     font-size: 1.2rem;
+    text-decoration: none;
     color: #FFFFFF;
-    background-color: var(--headerbuttonscolor);
-    border-radius: 40px;
-    text-transform: uppercase;
+    border-radius: 50px;
+    text-transform:capitalize;
     cursor: pointer;
     padding: 5px 20px 5px 20px;
-    transition: 0.15s;
+    transition: 0.5s;
 }
 
 .headerbuttons:hover {
-    color: var(--headerbackroundcolor);
+    background-color: var(--headerbuttonshover);
+    color: black;
 }
 
 
