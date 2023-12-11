@@ -5,6 +5,13 @@
 
 .openinghours {
     display: flex;
+    justify-content: space-between;
+}
+
+.openinghours-right {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
 
 #location-map {

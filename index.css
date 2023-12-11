@@ -46,15 +46,15 @@ h5 {
 }
 
 .categorybox-text-container-o {
-    display: flex;
-    flex-direction: column;
-    background-color: rgba(255, 167, 84, 0.5);
-    padding: 20px;
-  }
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 167, 84, 0.5);
+  padding: 20px;
+}
 
-  .categorybox-text-container-y {
-    display: flex;
-    flex-direction: column;
-    background-color:  rgba(241, 255, 84, 0.5);
-    padding: 20px;
-  }
+.categorybox-text-container-y {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(241, 255, 84, 0.5);
+  padding: 20px;
+}

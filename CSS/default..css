@@ -1,67 +1,76 @@
 :root {
-    --h2color: #0057A3;
-    --paragraphtext: #000000;
-    --sectioncontainer: #1F1F1F;
-    --pagecolor: #FFFFFF;
+  --h2color: #0057a3;
+  --paragraphtext: #000000;
+  --sectioncontainer: #1f1f1f;
+  --pagecolor: #ffffff;
 }
 
 body {
-    margin: 0;
-    font-family: 'Poppins', 'Poppins';
-    background: var(--pagecolor);
+  margin: 0;
+  font-family: "Poppins", "Poppins";
+  background: var(--pagecolor);
 }
 
-
 main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .mainpagecontainer {
-    width: 80%;
-    max-width: 1600px;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+  width: 80%;
+  max-width: 1600px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
-
 h1 {
-    font-weight: 400;
-    font-size: 4rem;
-    color: var(--paragraphtext);
+  font-weight: 400;
+  font-size: 4rem;
+  color: var(--paragraphtext);
 }
 
 h2 {
-    color: var(--h2color);
-    font-weight: 400;
-    align-self: left;
-    font-size: 2rem;
+  color: var(--h2color);
+  font-weight: 400;
+  align-self: left;
+  font-size: 2rem;
 }
 
 p {
-    color: var(--paragraphtext);
+  color: var(--paragraphtext);
 }
 
 .sectioncontainer-landscape {
-    display: flex;
-    background-color: var(--sectioncontainer);
-    padding: 30px;
+  display: flex;
+  background-color: var(--sectioncontainer);
+  padding: 30px;
 }
 
 .sectioncontainer-vertical {
-    display: flex;
-    flex-direction: column;
-    background-color: var(--sectioncontainer);
-    padding: 30px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--sectioncontainer);
+  padding: 30px;
 }
-
 
 .sectioncontainer-right {
-    display: flex;
-    flex-direction: column;
-    padding-right: 5%;
-    padding-left: 5%;
+  display: flex;
+  flex-direction: column;
+  padding-right: 5%;
+  padding-left: 5%;
 }
+
+
+.box-o {
+    background-color: rgba(255, 167, 84, 0.5);
+    padding: 20px;
+  }
+  
+  .box-y {
+    background-color: rgba(241, 255, 84, 0.5);
+    padding: 20px;
+  }
+  
