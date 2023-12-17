@@ -1,7 +1,23 @@
+/* Had to use a different main page container here because of some tweaking I wanted to do specifically to this page */
+
+
+.mainpagecontainer-visit {
+    width: 50%;
+    max-width: 1600px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+  }
+
 
 #visituselefant {
-    height: 600px;
+    height: 20%;
 }
+
+/* Used another version of box-o here from default as I wanted more padding specifically on this box */
+
+
+
 
 .openinghours {
     display: flex;
@@ -36,3 +52,5 @@
 #visitustext {
     align-self: flex-start;
 }
+
+
