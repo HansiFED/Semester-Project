@@ -1,13 +1,12 @@
 :root {
   --h2color: #0057a3;
   --paragraphtext: #000000;
-  --sectioncontainer: #1f1f1f;
   --pagecolor: #ffffff;
 }
 
 body {
   margin: 0;
-  font-family: "Poppins", "Poppins";
+  font-family: "Poppins";
   background: var(--pagecolor);
 }
 
@@ -35,34 +34,12 @@ h1 {
 h2 {
   color: var(--h2color);
   font-weight: 400;
-  align-self: left;
   font-size: 2rem;
 }
 
 p {
   color: var(--paragraphtext);
 }
-
-.sectioncontainer-landscape {
-  display: flex;
-  background-color: var(--sectioncontainer);
-  padding: 30px;
-}
-
-.sectioncontainer-vertical {
-  display: flex;
-  flex-direction: column;
-  background-color: var(--sectioncontainer);
-  padding: 30px;
-}
-
-.sectioncontainer-right {
-  display: flex;
-  flex-direction: column;
-  padding-right: 5%;
-  padding-left: 5%;
-}
-
 
 
 /* THESE THREE CLASSES I USE FOR COLORING BOXES*/
@@ -108,14 +85,41 @@ p {
 }
 
 
-.dottedline {
-  border-top: 1px solid black;
-  width: 40%;
-  margin-bottom: 100px;
-}
 
 .documents-text-container {
   background-color: rgba(84, 175, 255, 0.2);
   line-height: 4;
   padding: 50px;
 }
+
+
+/* This is the css for the underline i have under some of the texts */
+
+.header-underline-container {
+  width: fit-content;
+}
+
+.underline {
+  border: 1px solid black;
+}
+
+.weakerline {
+  border-top: 1px solid black;
+  margin-bottom: 10px;
+  width: 90%;
+}
+
+.top-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+/* This is the css i use for styling the backround images on top of the pages */
+
+.page-top-backround {
+  width: 100%;
+}
+

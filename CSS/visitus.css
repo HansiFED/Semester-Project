@@ -1,34 +1,103 @@
+:root {
+    --h2color: #0057a3;
+    --paragraphtext: #000000;
+    --pagecolor: #ffffff;
+  }
+
+
 /* Had to use a different main page container here because of some tweaking I wanted to do specifically to this page */
 
 
 .mainpagecontainer-visit {
-    width: 50%;
+    width: 60%;
     max-width: 1600px;
     display: flex;
     flex-direction: column;
-    gap: 100px;
+    gap: 0px;
+    position: relative;
+    bottom: 100px;
   }
 
 
-#visituselefant {
-    height: 20%;
-}
 
 /* Used another version of box-o here from default as I wanted more padding specifically on this box */
 
 
+.top-section-visitus {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+#triceratops {
+    transform: scaleX(-1);
+    width: 24%;
+    position: relative;
+    top: 6.5vw;
+}
+
+#longneck {
+    width: 24%;
+    position: relative;
+    top: 2vw;
+}
+
+h1 {
+    margin-bottom: 10px;
+    color: var(--h2color);
+    font-family: 'Grandstander';
+}
 
 
 .openinghours {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    gap: 60px;
+    margin-bottom: 50px;
 }
 
-.openinghours-right {
+
+.openinghours-left{
     display: flex;
     flex-direction: column;
-    align-content: center;
+    width: fit-content;
+    padding: 30px;
 }
+
+#opening-header {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+h5 {
+    font-size: 2rem;
+    font-family: 'Poppins';
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+
+table {
+    line-height: 3;
+    display: flex;
+    justify-content: center;
+}
+
+tr {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    
+}
+
+th {
+    font-weight: 400;
+}
+
 
 #location-map {
     border-radius: 50px;
@@ -36,7 +105,9 @@
 
 .locationcontainer {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
 }
 
 .locationcontainer-right {
@@ -47,10 +118,43 @@
 
 #adresstext {
     font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 0;
 }
 
-#visitustext {
-    align-self: flex-start;
+.visit-lowertextcontainer {
+    display: flex;
+    flex-direction: column;
+    line-height: 60px;
 }
 
+
+.visit-us-miniheader {
+    width: fit-content;
+}
+
+.visit-us-miniheader > h2 {
+    margin-bottom: 10px;
+}
+
+
+.formcontainer-visitus {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.first-form-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.half-form {
+    width: 40%;
+}
+
+.wide-form {
+    width: 100%;
+}
 

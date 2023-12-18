@@ -9,7 +9,7 @@
     background-color: var(--headerbackroundcolor);
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 20px 50px 20px 50px;
 }
 
 .headernav {
