@@ -138,23 +138,109 @@ th {
 }
 
 
+
+/* This is the form section of the page */
+
+h6 {
+    color: var(--h2color);
+    font-size: 3rem;
+    font-family: 'Poppins';
+    font-weight: 400;
+    align-self: center;
+
+}
+
+
 .formcontainer-visitus {
     display: flex;
     flex-direction: column;
     width: 60%;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    background-color: rgba(84, 175, 255, 0.2);
+    padding: 40px;
+    border-radius: 40px;
+    border: solid var(--h2color);
+}
+
 .first-form-row {
     display: flex;
-    justify-content: space-between;
     width: 100%;
+    justify-content: space-between;
+}
+
+.top-form-shortbox {
+    width: 45%;
 }
 
 .half-form {
-    width: 40%;
+    width: 100%;
+    height: 60px;
 }
 
 .wide-form {
+    height: 60px;
     width: 100%;
 }
+
+.extrawide {
+    height: 300px;
+}
+
+input {
+    font-size: 1rem;
+    border: none;
+    text-align: top;
+    border-radius: 10px;
+}
+
+
+/* BUTTON */
+
+button {
+    background-color: var(--h2color);
+    font-size: 2rem;
+    font-family: 'Poppins';
+    color: var(--pagecolor);
+    padding: 0px 40px 0px 40px;
+    border: none;
+    transition: 0.2s;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #FFFF00;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    transition: 0.3s;
+    
+    
+}
+
+#ticketsend {
+    margin: 70px 0px 70px 0px;
+}
+
+
+.text-underticket {
+    display: flex;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#phoneimage {
+    width: 30px;
+}
+
+#arrowdown {
+    height: 15px;
+}
+
 

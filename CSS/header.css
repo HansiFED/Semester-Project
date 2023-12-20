@@ -20,6 +20,11 @@
 
 #sitelogo {
     cursor: pointer;
+    transition: 0.3s;
+}
+
+#sitelogo:hover {
+    transform: scale(1.1);
 }
 
 .headerbuttons {
@@ -37,6 +42,7 @@
 .headerbuttons:hover {
     background-color: var(--headerbuttonshover);
     color: black;
+    transform: scale(1.1);
 }
 
 

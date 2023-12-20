@@ -13,6 +13,13 @@ footer p {
     text-decoration: underline;
     cursor: pointer;
     color: #FFFFFF;
+    transition: 0.2s;
+}
+
+
+footer p:hover {
+    color: #FFFF00;
+    transition: 0.2s;
 }
 
 
