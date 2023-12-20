@@ -22,7 +22,7 @@ main {
   max-width: 1600px;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 120px;
 }
 
 h1 {
@@ -133,3 +133,58 @@ p {
   width: 100%;
 }
 
+
+
+
+
+/* Css for the buttons */
+
+button {
+  background-color: var(--h2color);
+  font-size: 2rem;
+  font-family: 'Poppins';
+  color: var(--pagecolor);
+  padding: 0px 40px 0px 40px;
+  border: none;
+  transition: 0.2s;
+  margin-top: 50px;
+  cursor: pointer;
+  width: 15vw;
+  align-self: center;
+}
+
+button:hover {
+  color: #FFFF00;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+  transition: 0.3s;
+  
+  
+}
+
+/* Had to do it this way for the anchor elements that i style as buttons because for some reason they refused
+to apply the given css for the class 'button' ^ */
+
+.categorycontainer a {
+  background-color: var(--h2color);
+  font-size: 2rem;
+  font-family: 'Poppins';
+  color: var(--pagecolor);
+  padding: 0px 40px 0px 40px;
+  border: none;
+  transition: 0.2s;
+  margin-top: 50px;
+  cursor: pointer;
+  width: 15vw;
+  align-self: center;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+.categorycontainer a:hover {
+  color: #FFFF00;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+  transition: 0.3s;
+  
+  
+}

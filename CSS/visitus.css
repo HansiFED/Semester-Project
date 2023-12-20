@@ -101,6 +101,8 @@ th {
 
 #location-map {
     border-radius: 50px;
+    width: 25vw;
+    max-width: 665px;
 }
 
 .locationcontainer {
@@ -155,13 +157,13 @@ h6 {
     display: flex;
     flex-direction: column;
     width: 60%;
+    max-width: 1160px;
 }
 
 form {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 50px;
+    gap: 35px;
     background-color: rgba(84, 175, 255, 0.2);
     padding: 40px;
     border-radius: 40px;
@@ -195,32 +197,15 @@ form {
 input {
     font-size: 1rem;
     border: none;
-    text-align: top;
     border-radius: 10px;
+    text-indent: 20px;
+}
+
+input::placeholder {
+    text-indent: 20px;
 }
 
 
-/* BUTTON */
-
-button {
-    background-color: var(--h2color);
-    font-size: 2rem;
-    font-family: 'Poppins';
-    color: var(--pagecolor);
-    padding: 0px 40px 0px 40px;
-    border: none;
-    transition: 0.2s;
-    margin-top: 50px;
-    cursor: pointer;
-}
-
-button:hover {
-    color: #FFFF00;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
-    transition: 0.3s;
-    
-    
-}
 
 #ticketsend {
     margin: 70px 0px 70px 0px;
