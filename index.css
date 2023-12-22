@@ -34,18 +34,12 @@
   max-width: 2000px;
 }
 
-h5 {
-  font-size: 1.2rem;
-  font-family: 'Poppins';
-  font-weight: 500;
-}
-
-
 .categorybox-text-container {
   display: flex;
   flex-direction: column;
   padding: 20px;
   height: 300px;
   justify-content: space-evenly;
+  
 }
 
