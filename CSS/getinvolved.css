@@ -1,0 +1,48 @@
+.top-image {
+    width: 100%;
+}
+
+#museumsupport-text {
+    font-size: 2rem;
+    font-family: 'Poppins';
+}
+
+
+.contributions-box {
+    width: 100%;
+    display: flex;
+    gap: 40px;
+    box-sizing: border-box;
+}
+
+.contributions-image {
+    width: 50%;
+    min-width: 599px;
+    max-width: 600px;
+}
+
+.contributions-box-text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.getinvolved-bottom-container {
+    display: flex;
+    width: 100%;
+    align-items: last baseline;
+}
+
+.text-bottom-involved {
+    width: 50%;
+}
+
+#skeletonimage {
+    width: 50vw;
+    position: absolute;
+    max-width: 1200px;
+    align-self: last baseline;
+    left: 50vw;
+    top: 2310px;
+    z-index: -1;
+}

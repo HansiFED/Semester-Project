@@ -2,11 +2,14 @@
     width: fit-content;
 }
 
+#moonpicture {
+    width: 100%;
+}
+
 
 .exhibition-row-container {
     display: flex;
     width: 80%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
 }
 
 .exhibition-row-images {
@@ -42,7 +45,6 @@
     display: flex;
     flex-direction: column;
     width: 27%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
 }
 
 
