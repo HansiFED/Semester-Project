@@ -1,0 +1,123 @@
+
+/*-------------------------------------   FIRST BREAKING POINT FOR CERTAIN DESIGN ADJUSTMENTS ------------------------------------- */
+
+
+@media screen and (max-width: 850px) {
+
+    /* Header CSS */
+    /* Footer CSS */
+    /* Default CSS */
+    /* Index Page / Landing Page */
+    /* Visit Us Page */
+    /* Exhibitions Page */
+    /* Get Involved Page */
+    /* Terms and Agreements Page */
+    /* Privacy Policy Page */
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------   SECOND BREAKING POINT FOR PHONE AND MOBILE DEVICES ------------------------------------- */
+
+
+@media screen and (max-width: 850px) {
+
+
+/* Header CSS */
+.headerbuttons {
+    display: none;
+}
+
+.hiddenburger {
+    display: block;
+    margin: 0px;
+    box-sizing: content-box;
+    padding: 0;
+}
+
+
+
+/* Footer CSS */
+
+
+/* Default CSS */
+
+/* Index Page / Landing Page */
+/* Visit Us Page */
+/* Exhibitions Page */
+
+#moonpicture {
+    width: 200vw;
+    overflow: hidden;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.exhibition-row-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.exhibition-row-images {
+    height: 20%;
+}
+
+.exhibition-text-container {
+    padding: 0px 20px 0px 20px;
+}
+
+.special-events-row {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+.special-events-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.special-events-images {
+    height: 40%;
+}
+
+/* Get Involved Page */
+/* Terms and Agreements Page */
+/* Privacy Policy Page */
+
+
+
+
+
+
+
+
+
+    
+}
