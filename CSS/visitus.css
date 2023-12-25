@@ -214,11 +214,18 @@ input::placeholder {
 }
 
 
+.text-underticket-container {
+    width: 100%;
+    text-align: center;
+}
+
 .text-underticket {
     display: flex;
+    flex-wrap: wrap;
     font-size: 1.2rem;
     justify-content: center;
     align-items: center;
+    padding: 10px;
     gap: 10px;
 }
 

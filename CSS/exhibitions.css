@@ -45,9 +45,11 @@
     display: flex;
     flex-direction: column;
     width: 27%;
+    box-sizing: border-box;
 }
 
 
 .special-events-images {
     width: 100%;
 }
+
