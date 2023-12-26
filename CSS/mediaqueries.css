@@ -47,6 +47,20 @@
 
 
 /* Header CSS */
+
+
+.desktopheader {
+    padding: 20px;
+    }
+
+#sitelogo {
+    cursor: pointer;
+    transition: 0.3s;
+    width: 20vw;
+    min-width: 120px;
+    }
+
+
 .headerbuttons {
     display: none;
 }
@@ -85,7 +99,20 @@ footer {
         text-align: center;
         }
 
+.supportfooter {
+    margin-top: 0px;
+}
+
 /* Default CSS */
+
+.mainpagecontainer {
+    gap: 80px;
+    }
+
+.backroundimage {
+    width: 200vw;
+    }
+
 
 h1 {
     margin-bottom: 10px;
@@ -98,9 +125,20 @@ h1 {
 h2 {
 color: var(--h2color);
 font-weight: 400;
-font-size: 1.5rem;
+font-size: 2rem;
+margin-top: 40px;
+margin-bottom: 0px;
+text-align: center;
 }
-    
+
+h4 {
+    font-size: 1.2rem;
+    font-family: 'Poppins';
+    font-weight: 400;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    }
+
 h5 {
     text-align: center;
 }
@@ -112,6 +150,11 @@ h6 {
     font-weight: 400;
     align-self: center;
 
+}
+
+.button {
+    font-size: 1.5rem;
+    padding: 15px 30px 15px 30px;
 }
 
 
@@ -244,8 +287,17 @@ width: 100%;
     height: 70vw;
 }
 
+.exhibition-subheader {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Poppins';
+    font-weight: 400;
+    margin-top: 0px; 
+    margin-bottom: 20px;
+    }
+
 .exhibition-text-container {
-    padding: 20px;
+    padding: 5px;
 }
 
 .special-events-row {
@@ -267,6 +319,58 @@ width: 100%;
 }
 
 /* Get Involved Page */
+
+#museumsupport-text {
+    font-size: 1rem;
+    font-family: 'Poppins';
+    text-align: center;
+    margin-bottom: 0px;
+    }
+
+.contributions-box {
+width: 100%;
+display: flex;
+flex-direction: column;
+gap: 40px;
+box-sizing: border-box;
+}
+
+.contributions-image {
+    width: 100%;
+    min-width: 10px; 
+    max-width: none;
+    }
+
+.getinvolved-bottom-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.text-bottom-involved {
+    width: 100%;
+    }
+
+    .text-bottom-involved > p {
+    margin-top: 50px;
+    }
+
+    #skeletonimage {
+        width: 100%;
+        position: static;
+        max-width: 1200px;
+        align-self: last baseline;
+        left: 50vw;
+        top: 2310px;
+        z-index: -1;
+        }
+
+.contributions-box-text-container > h4 {
+margin-top: 0px;
+}
+
+
 /* Terms and Agreements Page */
 /* Privacy Policy Page */
 

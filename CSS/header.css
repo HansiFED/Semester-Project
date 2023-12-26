@@ -15,8 +15,8 @@
 .headernav {
     display: flex;
     align-items: center;
-    gap: 40px;
-}
+    gap: 4vw;
+    }
 
 #sitelogo {
     cursor: pointer;
@@ -52,6 +52,54 @@
     all: unset;
 }
 
+
+
+/* Drop down Menu CSS */
+
 .hiddenburger {
     display: none;
+    cursor: pointer;
+    fill: #FFFFFF;
+}
+
+details summary::-webkit-details-marker {
+    display: none;
+}
+
+
+ul {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--headerbackroundcolor);
+    padding: 0px;
+    overflow: hidden;
+    margin-top: 25px;
+    right: 1px;
+    }
+
+li {
+    list-style: none;
+    position: static;
+    top: 200px;
+    padding: 10px 20px 10px 20px;
+    border: solid white;
+}
+
+
+li > a {
+    all: unset;
+    color:#FFFFFF;
+    text-transform: capitalize;
+    transition: 0.3s;
+    text-align: center;
+    font-size: 1.5rem;
+    
+}
+
+li > a:hover {
+    color:#FFFF00;
+    transform: scale(1.2);
+    
 }

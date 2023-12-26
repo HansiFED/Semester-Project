@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="CSS/header.css" />
   <link rel="stylesheet" href="CSS/footer.css" />
   <link rel="stylesheet" href="CSS/visitus.css" />
+  <link rel="stylesheet" href="CSS/index.css" />
   <link rel="stylesheet" href="CSS/default..css" />
   <link rel="stylesheet" href="CSS/mediaqueries.css">
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -31,16 +32,24 @@
       <a href="visitus.html" class="headerbuttons">Visit Us </a>
       <a href="exhibitions.html" class="headerbuttons">Exhibitions</a>
       <a href="getinvolved.html" class="headerbuttons">Get Involved</a>
-        <a class="searchicon">
-          <img src="Images/logos/searchbar.svg" alt="search icon" />
-        </a>
-        <button class="hiddenburger">
-          <img src="Images/logos/hamburgermenu.svg" alt="drop down menu" />
-        </button>
+      <a class="searchicon">
+        <img src="Images/logos/searchbar.svg" alt="search icon" />
+      </a>
+      <details class="hiddenburger">
+        <summary><img src="Images/logos/hamburgermenu.svg" alt="Drop Down Menu"></summary>
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="visitus.html">Visit Us</a></li>
+        <li><a href="exhibitions.html">Exhibitions</a></li>
+        <li><a href="getinvolved.html">Get Involved</a></li>
+      </ul>
+      </details>
     </nav>
   </header>
   <main>
-    <img class="page-top-backround" src="Images/stockphotos/elephant.jpg">
+    <div class="landingpagebackround">
+    <img class="backroundimage" src="Images/stockphotos/elephant.jpg">
+  </div>
     <section class="mainpagecontainer-visit">
       <section class="top-section-visitus">
         <img class="dinosaurpics" id="triceratops" src="Images/stockphotos/triceratops.svg" alt="">

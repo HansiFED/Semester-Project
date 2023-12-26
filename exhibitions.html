@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="CSS/header.css" />
     <link rel="stylesheet" href="CSS/footer.css" />
     <link rel="stylesheet" href="CSS/default..css" />
+    <link rel="stylesheet" href="CSS/index.css" />
     <link rel="stylesheet" href="CSS/exhibitions.css">
     <link rel="stylesheet" href="CSS/mediaqueries.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -37,10 +38,21 @@
           <a class="searchicon">
             <img src="Images/logos/searchbar.svg" alt="search icon" />
           </a>
+          <details class="hiddenburger">
+            <summary><img src="Images/logos/hamburgermenu.svg" alt="Drop Down Menu"></summary>
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="visitus.html">Visit Us</a></li>
+            <li><a href="exhibitions.html">Exhibitions</a></li>
+            <li><a href="getinvolved.html">Get Involved</a></li>
+          </ul>
+          </details>
         </nav>
       </header>
       <main>
-        <img src="Images/stockphotos/moons.jpg" alt="Backround Image of moons" id="moonpicture">
+        <div class="landingpagebackround">
+        <img src="Images/stockphotos/moons.jpg" class="backroundimage" alt="Backround Image of moons">
+        </div>
         <section class="mainpagecontainer">
             <div class="headercontainer">
                 <h1 class="documents-header"> Our Exhibitions </h1>
@@ -98,7 +110,7 @@
                     <section class="special-events-box box-o">
                         <img src="Images/stockphotos/professor-aero.jpg" class="special-events-images" alt="Professor of Aeronautics">
                         <div class="exhibition-text-container">
-                        <h4> Visiting Professor of Aeronautics</h4>
+                        <h4 class="exhibition-subheader"> Visiting Professor of Aeronautics</h4>
                         <p>It is our pleasure to announce that Prof Sheila Widnall from the Massachusetts Institute of Technology will be delivering 3 lectures on the development of aeronautics and where the future lies in this exciting ‘space’</p>
                         <p>Join Professor Sheila Widnall for three thrilling talks on aeronautics! Explore the exciting world of planes and spacecraft as we uncover the secrets of flying high and venturing into the vast unknown of 'space'.</p>
                     </div>
@@ -106,7 +118,7 @@
                     <section class="special-events-box box-o">
                         <img src="Images/stockphotos/kids-night.jpg" class="special-events-images" alt="Kids in the museum at nighttime">
                         <div class="exhibition-text-container">
-                        <h4> Night in the Museum </h4>
+                        <h4 class="exhibition-subheader"> Night in the Museum </h4>
                         <p>Get your family together for an exciting night in the museum as you sleep over beside dinosaurs and science displays.</p>
                         <p> Bring your own sleeping bag and get ready to rough it as we go exploring the wonders of science. </p>
                         <p> Contact us for more information regarding planning this event. </p>
@@ -115,7 +127,7 @@
                     <section class="special-events-box box-o">
                         <img src="Images/stockphotos/onloan.jpg" class="special-events-images" alt="Green Power - Picture of flower">
                         <div class="exhibition-text-container">
-                        <h4> Energetica Exhibition on Loan</h4>
+                        <h4 class="exhibition-subheader"> Energetica Exhibition on Loan</h4>
                         <p>On loan from the NEMO Science Museum in Amsterdam, the Energetica exhibition is coming to the Community Science Museum. </p>
                         <p>It’s a series of installations that allow visitors to experience the power of the elements as we harness them. From solar energy powering lighting, to ‘Wind Island’ that shows how turbines are able to use and control wind to create power.</p>
                     </div>
