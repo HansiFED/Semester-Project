@@ -245,14 +245,18 @@ text-align: center;
 display: flex;
 flex-direction: column;
 width: 100%;
+box-sizing: border-box;
 }
 
 
 form {
-padding: 10px;
-border-radius: 0px;
-border: none;
-}
+    padding: 10px;
+    border-radius: 0px;
+    border: none;
+    box-sizing: border-box;
+    }
+
+
 
 .first-form-row {
 display: flex;
