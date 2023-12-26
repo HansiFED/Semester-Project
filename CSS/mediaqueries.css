@@ -190,7 +190,7 @@ justify-content: space-evenly;
     flex-direction: column;
     gap: 0px;
     position: relative;
-    bottom: 100px;
+    bottom: 10px;
     }
 
 #location-map {
