@@ -175,14 +175,16 @@ form {
 }
 
 .half-form {
-    width: 97%;
+    width: 100%;
     height: 60px;
+    box-sizing: border-box;
     }
 
 .wide-form {
     height: 60px;
-    width: 97%;
+    width: 100%;
     resize: none;
+    box-sizing: border-box;
 }
 
 .extrawide {
