@@ -6,7 +6,8 @@
 .exhibition-row-container {
     display: flex;
     width: 80%;
-}
+    gap: 40px;
+    }
 
 .exhibition-row-images {
     height: 400px;
@@ -16,7 +17,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding: 0px 40px 0px 40px;
+    padding: 0px;
+
 
 }
 
