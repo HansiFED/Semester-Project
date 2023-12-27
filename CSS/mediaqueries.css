@@ -10,6 +10,20 @@
         margin-top: 0px;
     }
     /* Default CSS */
+    
+    .mainpagecontainer {
+        width: 90%;
+        max-width: 1400px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 120px;
+        }
+
+    .backroundimage {
+        width: 150vw;
+        }
+    
 
     h4 {
         font-size: 1.7rem;
@@ -22,6 +36,35 @@
     /* Index Page / Landing Page */
     /* Visit Us Page */
     /* Exhibitions Page */
+
+
+    .exhibition-row-container {
+        display: flex;
+        width: 100%;
+        gap: 40px;
+        }
+
+    .special-events-row {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 40px   ;
+        }
+
+    .special-events-box {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        box-sizing: border-box;
+        }
+
+        .exhibition-text-container {
+            padding: 30px;
+            }
+
+        .special-events-images {
+            width: 30vw;
+            }
     /* Get Involved Page */
 
 
@@ -356,7 +399,7 @@ width: 100%;
 }
 
 .exhibition-row-images {
-    height: 70vw;
+    height: 80vw;
 }
 
 .exhibition-subheader {
