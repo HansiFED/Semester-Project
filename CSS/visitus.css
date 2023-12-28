@@ -212,6 +212,10 @@ input::placeholder {
     text-indent: 20px;
 }
 
+label {
+    /* display: none; */
+}
+
 
 
 #ticketsend {
