@@ -162,7 +162,7 @@ form {
     flex-direction: column;
     gap: 35px;
     background-color: rgba(84, 175, 255, 0.2);
-    padding: 40px;
+    padding: 50px;
     border-radius: 40px;
     border: solid var(--h2color);
 }
@@ -206,6 +206,12 @@ input {
     border-radius: 10px;
     text-indent: 20px;
     font-family: 'Poppins';
+    margin-top: 20px;
+}
+
+
+textarea {
+    margin-top: 20px;
 }
 
 input::placeholder {
