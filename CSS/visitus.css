@@ -86,11 +86,14 @@ tr {
     justify-content: space-between;
     gap: 100px;
     
-}
+}      
+
 
 th {
     font-weight: 400;
-}
+    flex-wrap: nowrap;
+    font-size: 1.1rem;
+    }    
 
 
 #location-map {

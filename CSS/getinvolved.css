@@ -13,7 +13,7 @@
 .contributions-box {
     width: 100%;
     display: flex;
-    gap: 40px;
+    gap: 0px;
     box-sizing: border-box;
 }
 
@@ -26,6 +26,7 @@
 .contributions-box-text-container {
     display: flex;
     flex-direction: column;
+    margin-left: 40px;
 }
 
 

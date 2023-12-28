@@ -34,16 +34,92 @@
 
 
     /* Index Page / Landing Page */
-        .categoryrow {
-            flex-direction: column;
+    .categoryrow {
+        flex-direction: column;
+    }
+    
+    .categorybox {
+        display: flex;
+        flex-direction: column;
+        width: 70vw;
+        gap: 20px;
+        max-width: 800px;
         }
-
-        .categorybox {
-            display: row;
-            width: 80%;
-        }
+    
+    
+    .categorybox-text-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: fit-content;
+    justify-content: space-evenly;
+    }    
+    
+        
 
     /* Visit Us Page */
+
+    .mainpagecontainer-visit {
+        width: 80%;
+        max-width: 1600px;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        position: relative;
+        bottom: 10px;
+        }
+
+        #triceratops {
+            transform: scaleX(-1);
+            width: 24%;
+            position: relative;
+            top: 8.5vw;
+        }
+
+        #longneck {
+            width: 24%;
+            position: relative;
+            top: 2.5vw;
+        }
+
+
+    .openinghours {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 60px;
+        margin-bottom: 50px;
+    }
+
+
+    tr {
+        gap: 20vw;
+    }
+
+    th {
+        font-size: 1.3rem;
+        }    
+    
+
+
+    .locationcontainer {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 30px;
+    }
+
+
+    #location-map {
+        border-radius: 50px;
+        width: 100%;
+        max-width: 665px;
+    }
+
+    
     /* Exhibitions Page */
 
 
@@ -99,11 +175,15 @@
         width: 100%;
         display: flex;
         flex-direction: column;
-        gap: 40px;
+        gap: 0px;
         box-sizing: border-box;
         max-width: 1000px;
         padding: 30px;
         }
+
+    .contributions-box-text-container {
+    margin-left: 0px;
+}    
 
     .contributions-image {
         width: 100%;
@@ -301,6 +381,7 @@ margin-bottom: 0px;
     flex-direction: column;
     width: 100%;
     gap: 20px;
+    max-width: 600px;
     }
 
 
@@ -325,9 +406,25 @@ justify-content: space-evenly;
     bottom: 10px;
     }
 
-#location-map {
-    width: 100%;
-}
+    #triceratops {
+        top: 11vw;
+    }
+
+    #longneck {
+        top: 5vw;
+    }
+
+    #location-map {
+        border-radius: 50px;
+        width: 100%;
+        max-width: 665px;
+    }
+    
+    .locationcontainer {
+        padding: 30px;
+        width: 100%;
+    }
+    
 
 .openinghours {
     display: flex;
@@ -336,6 +433,7 @@ justify-content: space-evenly;
     justify-content: space-evenly;
     gap: 60px;
     margin-bottom: 50px;
+    margin-top: 20px;
     }
 
 
@@ -346,7 +444,12 @@ justify-content: space-evenly;
     padding: 0px;
     }
 
-
+    #opening-header {
+        display: flex;
+        justify-content: center;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
 
 
 tr {
@@ -357,6 +460,7 @@ gap: 10vw;
 
 th {
     flex-wrap: nowrap;
+    font-size: 0.99rem;
     }    
 
 
@@ -505,6 +609,11 @@ box-sizing: border-box;
         z-index: -1;
         }
 
+
+.contributions-box-text-container {
+    margin-left: 0px;
+}
+
 .contributions-box-text-container > h4 {
 margin-top: 0px;
 }
@@ -536,4 +645,30 @@ line-height: 4;
 padding: 20px;
 }
     
+}
+
+
+
+
+
+
+
+
+
+/* This is a tiiiiiiiiny snippet of code for a tiny change i wanted to do at Visit Us Page when it reached a small size */
+
+@media screen and (max-width: 420px) {
+    #triceratops {
+        display: none;
+    }
+
+    #longneck {
+        display: none;
+    }
+
+    .top-section-visitus {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
