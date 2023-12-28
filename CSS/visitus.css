@@ -213,7 +213,7 @@ input::placeholder {
 }
 
 label {
-    /* display: none; */
+    margin-bottom: 20px;
 }
 
 
