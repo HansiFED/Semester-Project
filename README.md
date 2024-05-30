@@ -20,7 +20,7 @@ However I feel like it turned out great, I scored a 92/100 for the marking crite
 
 ## Getting Started
 
-### Installing
+### Installing / Opening The Website
 
 
 1. Clone the repo:
@@ -29,4 +29,7 @@ However I feel like it turned out great, I scored a 92/100 for the marking crite
 git clone git@github.com:itsHazeyboi/Semester-Project.git
 ```
 
+or 
+
+2. Go to: https://itshazeyboi.github.io/Semester-Project/
 
