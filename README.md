@@ -1,4 +1,4 @@
-# Noroff Semester Object - Community Science Museum  
+# Noroff Semester Project - Community Science Museum  
 
 ![image](https://github.com/itsHazeyboi/Semester-Project/assets/117860981/d011bc46-32ae-452d-a4f0-c6e33c6b76a9)
 
