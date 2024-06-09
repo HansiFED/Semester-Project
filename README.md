@@ -15,20 +15,20 @@ However I feel like it turned out great, I scored a 92/100 for the marking crite
 
 
 - [HTML](https://html.com/)
+- [FIGMA](https://www.figma.com/)
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
-## Getting Started
 
-### Installing / Opening The Website
+## Link to Exam Project 
+https://hansifed.github.io/Semester-Project/
 
 
-1. Clone the repo:
 
-```bash
-git clone git@github.com:itsHazeyboi/Semester-Project.git
-```
+Contact
+---
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hans-willmar-berentsen-68a65825a/)
 
-or 
 
-2. Go to: https://itshazeyboi.github.io/Semester-Project/
-
+License:
+---
+This work is not to be used in any commercial or profitable setting or distributed in that regard in exchange for profit. 
